@@ -6,7 +6,7 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("hola worlda")
+    return render(request,"/blo")
 
 def post(request):
     pass
