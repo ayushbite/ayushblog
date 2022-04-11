@@ -7,3 +7,9 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse("hola worlda")
+
+def post(request):
+    pass
+
+def postdetail(request):
+    pass
